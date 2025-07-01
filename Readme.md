@@ -88,11 +88,13 @@ Use this script inside your MySQL client:
 ```
    scripts/sql_reconciliation_queries.sql
 ```
-✨ Author
-Ankit Yadav
-📍 Bengaluru, India
-🔗 https://www.linkedin.com/in/ankitcodes247/
-💻 https://github.com/0-0ankit
+## ✨ Author
+
+**Ankit Yadav**  
+📍 Bengaluru, India  
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/ankitcodes247/)  
+💻 [GitHub Profile](https://github.com/0-0ankit)
+
 
 
 
