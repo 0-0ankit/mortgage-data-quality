@@ -14,18 +14,22 @@ A complete data analytics pipeline that simulates and analyzes mortgage loan dat
 
 ---
 
-## 🗃️ Project Structure
+### 🗃️ Project Structure
+
+```
 Mortgage_Lending_Quality_System/
-├── data/ # Raw and cleaned datasets (CSV)
-├── scripts/ # All Python scripts
-│ ├── generate_loans.py
-│ ├── etl_pipeline.py
-│ ├── mysql_loader.py
-│ ├── generate_external_loans.py
-│ ├── load_external_loans.py
-│ └── sql_reconciliation_queries.sql
-├── tableau/ # Tableau workbook (dashboard)
+├── data/                      # Raw and cleaned datasets (CSV)
+├── scripts/                   # All Python scripts
+│   ├── generate_loans.py
+│   ├── etl_pipeline.py
+│   ├── mysql_loader.py
+│   ├── generate_external_loans.py
+│   ├── load_external_loans.py
+│   └── sql_reconciliation_queries.sql
+├── tableau/                   # Tableau workbook (dashboard)
 └── README.md
+```
+
 
 
 ---
