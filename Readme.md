@@ -64,23 +64,41 @@ Mortgage_Lending_Quality_System/
 
 ## 📌 How to Run Locally
 
-1. Clone the repo:
-2. Run scripts:
+🧾 1. Clone the Repository
+```
+   git clone https://github.com/0-0ankit/mortgage-data-quality.git
+   cd mortgage-data-quality
+
+```
+
+⚙️ 2. Run Scripts in Order
+
+```
    python scripts/generate_loans.py
    python scripts/etl_pipeline.py
    python scripts/mysql_loader.py
    python scripts/generate_external_loans.py
    python scripts/load_external_loans.py
 
-3. Run reconciliation queries in MySQL using:
+```
 
+🧮 3. Run Reconciliation Queries in MySQL
+
+Use this script inside your MySQL client:
+```
    scripts/sql_reconciliation_queries.sql
-
+```
 ✨ Author
 Ankit Yadav
 📍 Bengaluru, India
-🔗https://www.linkedin.com/in/ankitcodes247/ 
-💻 https://github.com/0-0ankit
+🔗 LinkedIn
+💻 GitHub
+
+
+
+
+
+
 
 
 
