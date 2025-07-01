@@ -1,16 +1,83 @@
-# Mortgage Lending Data Quality System
+# 🏦 Mortgage Lending Data Quality System
 
-A full-stack Python + SQL + Tableau pipeline to simulate mortgage data, clean it via ETL, reconcile it, and visualize risk & approval patterns.
+A complete data analytics pipeline that simulates and analyzes mortgage loan data using Python, MySQL, and Tableau. This project mimics real-world data quality validation and reconciliation workflows used in financial institutions.
 
-## Structure
-- `scripts/`: All ETL and SQL logic
-- `data/`: Input/output datasets
-- `tableau/`: Tableau dashboards
+---
 
-## Technologies
-Python, Pandas, MySQL, Tableau
+## 🚀 Features
 
-## To Run
-1. Generate raw data:
-   ```bash
+✅ Simulate mortgage data with issues (missing values, duplicates, inconsistencies)  
+✅ Clean and validate data using a Python ETL pipeline  
+✅ Load data into MySQL tables for structured processing  
+✅ Reconcile internal and external datasets using SQL queries  
+✅ Optional: Visualize risk and approval insights in a Tableau dashboard  
+
+---
+
+## 🗃️ Project Structure
+Mortgage_Lending_Quality_System/
+├── data/ # Raw and cleaned datasets (CSV)
+├── scripts/ # All Python scripts
+│ ├── generate_loans.py
+│ ├── etl_pipeline.py
+│ ├── mysql_loader.py
+│ ├── generate_external_loans.py
+│ ├── load_external_loans.py
+│ └── sql_reconciliation_queries.sql
+├── tableau/ # Tableau workbook (dashboard)
+└── README.md
+
+
+---
+
+## 📊 Tableau Dashboard
+
+📈 *Coming soon*  
+(*Link will go here once dashboard is published to Tableau Public*)
+
+---
+
+## 🧰 Tech Stack
+
+- **Python** (Pandas)
+- **MySQL** (`mysql-connector-python`)
+- **SQL** (Reconciliation queries)
+- **Tableau Public** (Dashboard Visualization)
+- Git & GitHub (Version control & publishing)
+
+---
+
+## 🧠 Concepts Applied
+
+- Data Cleaning (ETL)
+- Risk Scoring
+- Relational Databases (RDBMS)
+- SQL Joins and Data Reconciliation
+- Data Visualization
+- Business Rule Validation (Credit Score + Loan Amount logic)
+
+---
+
+## 📌 How to Run Locally
+
+1. Clone the repo:
+2. Run scripts:
    python scripts/generate_loans.py
+   python scripts/etl_pipeline.py
+   python scripts/mysql_loader.py
+   python scripts/generate_external_loans.py
+   python scripts/load_external_loans.py
+
+3. Run reconciliation queries in MySQL using:
+
+   scripts/sql_reconciliation_queries.sql
+
+✨ Author
+Ankit Yadav
+📍 Bengaluru, India
+🔗https://www.linkedin.com/in/ankitcodes247/ 
+💻 https://github.com/0-0ankit
+
+
+
+
