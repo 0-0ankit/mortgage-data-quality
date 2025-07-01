@@ -91,8 +91,8 @@ Use this script inside your MySQL client:
 ✨ Author
 Ankit Yadav
 📍 Bengaluru, India
-🔗 LinkedIn
-💻 GitHub
+🔗 https://www.linkedin.com/in/ankitcodes247/
+💻 https://github.com/0-0ankit
 
 
 
